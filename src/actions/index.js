@@ -1,6 +1,4 @@
-import REACT_APP_API_KEY from "../actions/index"
-
-let apiKey = REACT_APP_API_KEY;
+let apiKey = "f6771740";
 
 export function getMovies(titulo) {
   return function (dispatch) {
